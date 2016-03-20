@@ -1,5 +1,5 @@
 /**
- * Created by Ayushka on 20/03/2016.
+ * Created by tonkytohap
  */
 public class gummyGraph {
 
@@ -18,7 +18,7 @@ public class gummyGraph {
         subnode1.addChild(subnode11);
         //Sample Graph End
 
-        Controller controller = new Controller(new CLDisplay());
+        Controller controller = new Controller(new SJSDisplay());
 
         controller.displayGraph(graph);
 

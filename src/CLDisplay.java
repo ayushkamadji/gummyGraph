@@ -1,12 +1,12 @@
 /**
- * Created by Ayushka on 20/03/2016.
+ * Created by tonkytohap
  */
-public class CLDisplay extends Display {
+public class CLDisplay implements Display {
     public void print(Node n){
         print(n,"");
     }
 
-    public void print(Node n, String t){
+    private void print(Node n, String t){
         System.out.println(t + n.getText());
         if(n.getChildren() != null){
             for(Node node : n.getChildren()){

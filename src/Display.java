@@ -1,6 +1,6 @@
 /**
- * Created by Ayushka on 20/03/2016.
+ * Created by tonkytohap
  */
-public abstract class Display {
-    public abstract void print(Node n);
+interface Display {
+    void print(Node n);
 }
